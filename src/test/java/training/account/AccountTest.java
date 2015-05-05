@@ -33,7 +33,7 @@ public class AccountTest {
 
     @Test
     public void accountEqualsTest() {
-        Account a = new Account("testu", "testp", "testr");
+        Account a = new Account("testua", "testp", "testr");
         Account b = new Account("testu", "testp", "testr");
         assertEquals(a, b);
     }
